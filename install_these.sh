@@ -25,3 +25,4 @@ for fn in $HERED; do
 done
 
 pip install --no-deps $LIST
+pip install -e git+git://github.com/senturio/django-postman.git@fe83b9a5449996def4b6b7db80b4287bf7000186#egg=django-postman
